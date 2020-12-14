@@ -1,0 +1,33 @@
+.tabs {
+	background: #534540;
+    display: flex;
+    color: white;
+    padding: 10px 10px 0 10px;
+}
+
+.tab-item {
+    flex: 1 1 auto;
+    text-align: center;
+	background: #756A66;
+}
+
+.tab-item:first-child {
+    border-radius: 5px 0 0 0;
+}
+
+.tab-item:last-child {
+    border-radius: 0 5px 0 0;
+}
+
+.tab-item h3 {
+    font-weight: bold;
+}
+
+.tab-item p {
+    font-weight: lighter;
+}
+
+.active {
+    background-color: white;
+    color: black;
+}
